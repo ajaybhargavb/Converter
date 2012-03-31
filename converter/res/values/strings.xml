@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="header">Converter</string>
+    <string name="app_name">Converter</string>
+    <string name="fahrenheit">Fahrenheit</string>
+    <string name="fedithint">Fahrenheit value</string>
+    <string name="celsius">Celsius</string>
+    <string name="cedithint">Celsius value</string>
+    <string name="convertbutton">Convert</string>
+    <string name="toastnullmsg">Enter a value</string>
+    <string name="resetbutton">Reset</string>
+    <string name="textabout">created by Ajay Bhargav B</string>
+
+</resources>

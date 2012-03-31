@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" android:background="@drawable/bg">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/header" android:gravity="center" android:textSize="30dp"/>
+	<TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fahrenheit" android:textSize="20dp"/>
+
+	<EditText
+	    android:id="@+id/fedit"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:inputType="numberSigned|numberDecimal" android:hint="@string/fedithint">
+
+	    <requestFocus />
+	</EditText>
+
+	<TextView
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text="@string/celsius"
+	    android:textSize="20dp"/>
+
+	<EditText
+	    android:id="@+id/cedit"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:inputType="numberSigned|numberDecimal" android:hint="@string/cedithint"/>
+
+	<Button
+	    android:id="@+id/convert"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text="@string/convertbutton" android:gravity="center" android:textSize="20dp" android:layout_marginTop="10dp"/>
+
+	<Button
+	    android:id="@+id/reset"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text="@string/resetbutton" android:gravity="center" android:textSize="20dp"/>
+
+	<TextView
+	    android:id="@+id/textView1"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text="@string/textabout" android:gravity="right" android:textColor="#fff"/>
+
+	    android:text="Button" />
+	
+</LinearLayout>
